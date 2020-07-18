@@ -1,0 +1,11 @@
+  {
+    "name": "ytmusic_sync",
+    "version": "1.0",
+    "description": "Automatically upload songs to YouTube Music",
+	"permissions": ["nativeMessaging", "tabs", "http://*/*", "https://*/*"],
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
